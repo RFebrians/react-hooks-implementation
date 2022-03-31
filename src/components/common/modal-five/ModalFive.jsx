@@ -12,7 +12,8 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
             <h1>useEffect Implementation</h1>
           </header>
           <div className="modal--body">
-            <p>below are an Example how useEffect change their value</p>
+            <p>below are an Example how useEffect running their process with document title and interchange their value using useState</p>
+            <p>Please notice the header on tab or open up console on Web Source to see the process</p>
             <App7 />
           </div>
           <footer className="modal--footer">

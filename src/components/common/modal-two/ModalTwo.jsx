@@ -9,10 +9,10 @@ const ModalTwo = ({ closeFn = () => null, open = false }) => {
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>Modal Two</h1>
+            <h1>Interact with Array</h1>
           </header>
           <div className="modal--body">
-            <p>Modal Two content will be rendered here.</p>
+            <p>useState will change your state value , and what about Array ?</p>
             <App2/>
           </div>
           <footer className="modal--footer">
