@@ -27,7 +27,7 @@ const Item = () => {
   return (
     <div style={{ marginTop: '2rem' }}>
       <h1>Window</h1>
-      <h2>size : {size}</h2>
+      <h2>Your actual size : {size}</h2>
     </div>
   );
 };

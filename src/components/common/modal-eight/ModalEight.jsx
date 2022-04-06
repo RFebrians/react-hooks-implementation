@@ -9,11 +9,10 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>Fetch Interaction with your Own Custom Hooks</h1>
+            <h1>Fetch Interaction with Custom Hooks</h1>
           </header>
           <div className="modal--body">
             <p>below are an Example how Custom Hooks Works </p>
-            <p>reference : </p>
             <App7 />
           </div>
           <footer className="modal--footer">

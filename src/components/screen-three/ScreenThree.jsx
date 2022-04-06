@@ -4,7 +4,7 @@ const ScreenThree = () => {
   return (
     <main className="app--screen screen--three">
       <h2>Custom Hooks</h2>
-      <h5>Custom Hooks is a Hooks that ...</h5>
+      <h5>Custom hooks allow us to have cleaner functional components and prevent code duplication by bringing common use cases to reusable hooks.</h5>
       <div style={{ display: 'flex', columnGap: '1rem' }}>
         <button type="button" data-modal="modal-eight">
           Fetch with Custom Hook

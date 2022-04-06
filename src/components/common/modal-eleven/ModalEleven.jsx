@@ -9,7 +9,7 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>Show/Hide Conditional Rendering</h1>
+            <h1>Show/Hide on Conditional Rendering</h1>
           </header>
           <div className="modal--body">
             <p>below are an Example how we can show/hide the button using Conditional Rendering</p>

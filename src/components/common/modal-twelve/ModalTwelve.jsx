@@ -9,7 +9,7 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>useEffect Implementation</h1>
+            <h1>Context</h1>
           </header>
           <div className="modal--body">
             <p>below are an Example how useEffect change their value</p>
