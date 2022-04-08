@@ -12,6 +12,11 @@ import ModalNine from './components/common/modal-nine/ModalNine'
 import ModalTen from './components/common/modal-ten/ModalTen'
 import ModalEleven from './components/common/modal-eleven/ModalEleven'
 import ModalTwelve from './components/common/modal-twelve/ModalTwelve'
+import ModalThirteen from './components/common/modal-thirteen/ModalThirteen'
+import ModalFourteen from './components/common/modal-fourteen/ModalFourteen'
+import ModalFifteen from './components/common/modal-fifteen/ModalFifteen'
+import ModalSixteen from './components/common/modal-sixteen/ModalSixteen'
+
 
 
 // this is modal section , not a page
@@ -31,6 +36,10 @@ const ModalManager = ({ closeFn, modal = '' }) => {
       <ModalTen closeFn={closeFn} open={modal === 'modal-ten'} />
       <ModalEleven closeFn={closeFn} open={modal === 'modal-eleven'} />
       <ModalTwelve closeFn={closeFn} open={modal === 'modal-twelve'} />
+      <ModalThirteen closeFn={closeFn} open={modal === 'modal-thirteen'} />    
+      <ModalFourteen closeFn={closeFn} open={modal === 'modal-fourteen'} />
+      <ModalFifteen closeFn={closeFn} open={modal === 'modal-fifteen'} />
+      <ModalSixteen closeFn={closeFn} open={modal === 'modal-sixteen'} />
     </>
   );
 };

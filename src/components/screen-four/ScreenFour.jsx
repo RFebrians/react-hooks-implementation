@@ -37,18 +37,18 @@ const ScreenFour = ({}) => {
       </div>
       <br/>
       <div >
-      <h2> useReducer </h2>
+      <h2> useReducer & Inputs </h2>
       <h5>useReducer works like Redux</h5>
       </div>
       <div style={{ display: 'flex', columnGap: '1rem' }}>
-        <button type="button" data-modal="modal-nine">
-          Example 1
+        <button type="button" data-modal="modal-twelve">
+          Implementation
         </button>
-        <button type="button" data-modal="modal-ten">
-          Example 2
+        <button type="button" data-modal="modal-thirteen">
+          Inputs 1
         </button>
-        <button type="button" data-modal="modal-eleven">
-          Example 3
+        <button type="button" data-modal="modal-fourteen">
+          Inputs 2
         </button>
       </div>
     </main>

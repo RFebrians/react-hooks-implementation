@@ -1,6 +1,6 @@
 import React from 'react';
 
-import App7 from '../../../tutorial/useReducer/index.js';
+import App7 from '../../../tutorial/forms/1-controlled-inputs';
 import Modal from '../modal/Modal';
 
 const ModalOne = ({ closeFn = () => null, open = false }) => {
@@ -9,10 +9,10 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>useReducer</h1>
+            <h1>Controlled Input</h1>
           </header>
           <div className="modal--body">
-            <p>below are an Example how useReducer Works</p>
+            <p>below are an Example what is controlled inputs</p>
             <App7 />
           </div>
           <footer className="modal--footer">

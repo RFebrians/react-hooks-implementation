@@ -10,8 +10,10 @@ const AppHeader = () => {
         <NavLink to="/screen-two">Effect</NavLink>
         <NavLink to="/screen-three">Custom Hooks</NavLink>
         | | |
-        <NavLink to="/screen-four">Context(propstypes , props drilling ,useContext,useReducer)</NavLink>
-        <NavLink to="/screen-five">DOM(useRef,useMemo,useCallback)</NavLink>
+        <NavLink to="/screen-four">Context</NavLink>
+        <NavLink to="/screen-five">DOM Interaction</NavLink>
+        | | |
+        <NavLink to="/screen-five">Glossary</NavLink>
       </nav>
     </header>
   );

@@ -1,19 +1,19 @@
 import React from 'react';
 
-import App7 from '../../../tutorial/useReducer/index.js';
+import App2 from '../../../tutorial/useRef/1-useRef-basics'
 import Modal from '../modal/Modal';
 
-const ModalOne = ({ closeFn = () => null, open = false }) => {
+const ModalTwo = ({ closeFn = () => null, open = false }) => {
   return (
     <Modal open={open}>
       <div className="modal--mask">
         <div className="modal-window">
           <header className="modal--header">
-            <h1>useReducer</h1>
+            <h1>useRef</h1>
           </header>
           <div className="modal--body">
-            <p>below are an Example how useReducer Works</p>
-            <App7 />
+            <p>useRef will work the same like document.getbyID</p>
+            <App2/>
           </div>
           <footer className="modal--footer">
             <button type="button" onClick={closeFn}>
@@ -26,4 +26,4 @@ const ModalOne = ({ closeFn = () => null, open = false }) => {
   );
 };
 
-export default ModalOne;
+export default ModalTwo;

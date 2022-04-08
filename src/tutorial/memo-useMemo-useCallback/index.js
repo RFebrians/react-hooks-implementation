@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react'
-import { useFetch } from './9-custom-hooks/2-useFetch'
+import { useFetch } from '../custom-hooks/2-useFetch'
 
 // URL 
 

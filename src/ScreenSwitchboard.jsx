@@ -7,10 +7,14 @@ import ScreenTwo from './components/screen-two/ScreenTwo';
 import ScreenThree from './components/screen-three/ScreenThree';
 import ScreenFour from './components/screen-four/ScreenFour';
 import ScreenFive from './components/screen-five/screen-five';
+import ScreenAbout from './components/screen-about/screen-about';
 
 const ScreenSwitchboard = () => {
   return (
     <Switch>
+      <Route path="/screen-about">
+        <ScreenAbout />
+      </Route>
       <Route path="/screen-five">
         <ScreenFive />
       </Route>
